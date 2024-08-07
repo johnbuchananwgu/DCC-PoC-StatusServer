@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/vc/status-list/2021/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "https://johnbuchananwgu.github.io/DCC-PoC-StatusServer/JBILSUEQUU",
+  "type": [
+    "VerifiableCredential",
+    "StatusList2021Credential"
+  ],
+  "credentialSubject": {
+    "id": "https://johnbuchananwgu.github.io/DCC-PoC-StatusServer/JBILSUEQUU#list",
+    "type": "StatusList2021",
+    "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+    "statusPurpose": "revocation"
+  },
+  "issuer": "did:key:z6Mkg165pEHaUPxkY4NxToor7suxzawEmdT1DEWq3e1Nr2VR",
+  "issuanceDate": "2024-08-07T20:51:53.704Z",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2024-08-07T20:51:53Z",
+    "verificationMethod": "did:key:z6Mkg165pEHaUPxkY4NxToor7suxzawEmdT1DEWq3e1Nr2VR#z6Mkg165pEHaUPxkY4NxToor7suxzawEmdT1DEWq3e1Nr2VR",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z2qqZhi69SBsKg4pdUowBgsos2ztJttQ4Y6NY1DyarWbZjwRHXgWadtXjBb3aNbtFgApsjeApaNwQWCFkaVNtuNzv"
+  }
+}
